@@ -11,7 +11,7 @@ def number_guessing_game():
             attempts += 1
 
             if user_guess == target_number:
-                print("your guess {user_guess} completely matches with {target_number}in{attempts}attempts")
+                print(f"your guess {user_guess} completely matches with {target_number} in {attempts} attempts")
                 
             elif target_number<user_guess:
                 print("come bit lower , try agin")
